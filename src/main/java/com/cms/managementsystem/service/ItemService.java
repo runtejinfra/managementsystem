@@ -29,6 +29,7 @@ public class ItemService {
         double amount = price * quantity;
 
         item.setAmount(amount);
+        //
         return itemRepository.save(item);
     }
 
